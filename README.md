@@ -1,31 +1,31 @@
-# Neovim Editor Config
+# 🧠 Neovim Configuration
 
-## Description
+A modern, fast, and extensible Neovim configuration written in **Lua**, tailored for web development with built-in support for LSP, formatting, and linting.
 
-This is a configuration done in Lua in order to turn Neovim into a full webdev evnrionment with LSP support.
+---
 
-## Supported Languages
+## ✨ Features
 
-- JavaScript
-- TypeScript
-- Python
-- Lua
+- ⚡ **Lightning-fast** Neovim setup using native Lua
+- 🔧 **LSP-ready** for:
+  - JavaScript / TypeScript
+  - Python
+  - Lua
+- 🧩 Built-in support for formatting and linting
+- 🔍 Treesitter syntax highlighting
+- 🗂️ File explorer, status line, fuzzy finder, Git integration, and more
 
-## Requirements
+---
 
-Ensure the following packages are installed before launching Neovim:
+## ⚙️ Requirements
 
-- **npm** – Required for web development tools and package management.
-- **stylua** – A Lua code formatter for consistent styling.
-- **wl-clipboard** – Enables clipboard integration between Neovim and the OS (for Wayland systems).
+Make sure you have the following installed:
 
-### Installation (Arch Linux)
-To install the required packages, run:
-```sh
+- [`npm`](https://nodejs.org/en/download/) – for language servers and tooling
+- [`stylua`](https://github.com/JohnnyMorganz/StyLua) – Lua code formatter
+- [`wl-clipboard`](https://github.com/bugaevc/wl-clipboard) – for clipboard integration on Wayland
+
+### 📦 Install requirements on Arch Linux:
+
+```bash
 sudo pacman -S npm stylua wl-clipboard
-
-### Initialize NPM inside a project directory
-npm init
-npm init @eslint/config
-
-
